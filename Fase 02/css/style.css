@@ -1,0 +1,59 @@
+/* Paleta Utilizada: Shades of Gray Color = https://www.color-hex.com/color-palette/184*/
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:  	#999999;
+}
+
+h3, h2 {
+    color: #111111;
+}
+
+li {
+    color: #333333;
+}
+
+main {
+    margin: auto;
+    padding: 5px;
+}
+
+thead {
+    position: relative;
+}
+
+.thead__imgs, .thead__btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.thead__img {
+    display: none;
+    padding: 5px;
+}
+
+.thead__btn {
+    cursor: pointer;
+    color: #ffff;
+    transition: 0.4s;
+}
+
+.thead__btn--selected {
+    color: #555555;
+}
+
+.thead__btn:hover{
+    color: #555555;
+}
+
+.thead__img--active {
+    display: block;
+}
+
+.thead__img img{
+    height: 400px;
+}
