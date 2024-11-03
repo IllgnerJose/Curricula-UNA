@@ -1,0 +1,123 @@
+/* Paleta Utilizada: Shades of Gray Color = https://www.color-hex.com/color-palette/184*/
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:  	#999999;
+}
+
+h3, h2 {
+    color: #111111;
+}
+
+li {
+    color: #333333;
+    list-style: none;
+}
+
+main {
+    margin: auto;
+    padding: 5px;
+}
+
+thead {
+    position: relative;
+}
+
+.thead__imgs, .thead__btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.thead__img {
+    display: none;
+    padding: 5px;
+}
+
+.thead__btn {
+    cursor: pointer;
+    color: #ffff;
+    transition: 0.4s;
+}
+
+.thead__btn--selected {
+    color: #555555;
+}
+
+.thead__btn:hover{
+    color: #555555;
+}
+
+.thead__img--active {
+    display: block;
+}
+
+.thead__img img{
+    height: 400px;
+}
+
+#tbody__botao-para-adicionar-ucs,  #tbody__botao-para-adicionar-infos{
+    background-color:  #111111;
+    color: #999999;
+    cursor: pointer;
+    display: inline;
+    padding: 10px;
+    border: none;
+    outline: none; 
+    box-shadow: none; 
+}
+
+.tbody__botao-para-adicionar-ucs--disabled, .tbody__campo-para-adicionar-ucs--disabled, .tbody__botao-para-adicionar-infos--disabled, .tbody__campo-para-adicionar-infos--disabled{
+    display: none !important;
+}
+
+#tbody__botao-para-salvar-ucs, #tbody__botao-para-salvar-infos {
+    background-color: green;
+    cursor: pointer;
+    border: none;
+    outline: none; 
+    box-shadow: none; 
+    padding: 7px;
+    width: 100px;
+}
+
+#tbody__input-para-adicionar-ucs, #tbody__input-para-adicionar-infos {
+    padding: 7px;
+}
+
+.tbody__btns-uc {
+    cursor: pointer;
+}
+
+.tbody__botao-para-subir-uc {
+    margin-right: 5px;
+}
+
+.tbody__ucs-info {
+    color: red;
+}
+
+.tbody__contato-lista li {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 25%;
+}
+
+.tbody__botao-para-salvar-contato {
+    background-color: green;
+    cursor: pointer;
+    border: none;
+    outline: none; 
+    box-shadow: none; 
+    padding: 7px;
+    width: 100%;
+}
+
+.tbody__contato-item {
+    display: flex;
+    flex-direction: column;
+}
