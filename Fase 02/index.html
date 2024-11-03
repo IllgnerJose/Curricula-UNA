@@ -3,64 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fase 1 - Usabilidade Web e Mobile</title>
+    <title>Fase 2 - Usabilidade Web e Mobile</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
     <body>
         <main>
-            <section class="main__img">
-                <img src="./img/PerfilIllgner.jpeg" alt="Foto de Perfil">
-            </section>
-            <section class="main__nome">
-                <h3>Illgner José Batista Dos Anjos</h3>
-            </section>
-            <section class="main__curso">
-                <h3>Curso e Período Atual:</h3>
-                <ul>
-                    <li>Sistemas de Informação (4/8)</li>
-                </ul>
-            </section>
-            <section class="main__ucs">
-                <h3>UCS Cursadas:</h3>
-                <ul>
-                    <li>Modelagem de software</li>
-                    <li>Programação de soluções computacionais</li>
-                    <li>Vida & Carreira</li>
-                    <li>Ambientes computacionais e conectividade</li>
-                    <li>Sistemas computacionais e segurança</li>
-                    <li>Gestão e qualidade de software</li>
-                    <li>Modelos, métodos e técnicas da engenharia de software</li>
-                </ul>
-            </section>
-            <section class="main__infos">
-                <h3>Endereço & Email:</h3>
-                <ul>
-                    <li>Rua Antônio Elias, 255. Dr Lund. Pedro Leopoldo, MG. Brasil.</li>
-                    <li>illgnerjosbatista@gmail.com</li>
-                </ul>
-            </section>
-            <section class="main__perfil-pessoal">
-                <h3>Perfil Pessoal:</h3>
-                <ul>
-                    <li>
-                        No meu tempo livre, gosto de ler, jogar, costumo correr e passear com meu cachorro, e é claro, PROGRAMAR!
-                    </li>
-                </ul>
-            </section>
-            <section class="main__perfil-profissional">
-                <h3>Perfil Profissional:</h3>
-                <ul>
-                    <li>
-                        Sou um profissional apaixonado por desenvolvimento web, com experiência em criar soluções web robustas utilizando PHP, HTML, CSS JavaScript, MySQL e vários frameworks. Trabalho a cerca de seis meses na <abbr title="Industria de Aviação e Serviços">IAS</abbr> como <b>Desenvolvedor Web</b> e atualmente estou cursando Sistemas de Informação na UNA BH.
-                    </li>
-                </ul>
-            </section>
-            <section class="main__redes">
-                <h3>Minhas Redes Sociais:</h3>
-                <ul>
-                   <li><a href="https://www.linkedin.com/in/illgner-jos%C3%A9-44586925b/">Linkedin</a></li> 
-                </ul>
-            </section>
+            <table class="main__table">
+                <thead>
+                    <tr class="thead__imgs">
+                        <th class="thead__img thead__img--active">
+                            <img src="./img/PerfilIllgner.jpeg" alt="Foto de Perfil">
+                        </th>
+                        <th class="thead__img">
+                            <img src="./img/FotoNaPraia.jpeg" alt="Foto de Perfil">
+                        </th>
+                        <th class="thead__img">
+                            <img src="./img/FotoDePerfilNaPraia.jpeg" alt="Foto de Perfil">
+                        </th>
+                    </tr>
+                    <tr class="thead__btns">
+                        <td class="thead__btn thead__btn--selected">●</td>
+                        <td class="thead__btn">●</td>
+                        <td class="thead__btn">●</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="tbody__nome">
+                            <h2>Illgner José Batista Dos Anjos - 323132051</h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tbody__curso">
+                            <h3>Curso e Período Atual:</h3>
+                            <ul>
+                                <li>Sistemas de Informação (4/8)</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tbody__infos">
+                            <h3>Endereço & Email:</h3>
+                            <ul>
+                                <li>Rua Antônio Elias, 255. Dr Lund. Pedro Leopoldo, MG. Brasil.</li>
+                                <li>illgnerjosbatista@gmail.com</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tbody__ucs">
+                            <h3>UCS Cursadas:</h3>
+                            <ul>
+                                <li>Modelagem de software</li>
+                                <li>Programação de soluções computacionais</li>
+                                <li>Vida & Carreira</li>
+                                <li>Ambientes computacionais e conectividade</li>
+                                <li>Sistemas computacionais e segurança</li>
+                                <li>Gestão e qualidade de software</li>
+                                <li>Modelos, métodos e técnicas da engenharia de software</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tbody__perfil-pessoal">
+                            <h3>Perfil Pessoal:</h3>
+                            <ul>
+                                <li>
+                                    No meu tempo livre, gosto de ler, jogar, costumo correr e passear com meu cachorro, e é claro, PROGRAMAR!
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tbody__perfil-profissional">
+                            <h3>Perfil Profissional:</h3>
+                            <ul>
+                                <li>
+                                    Sou um profissional apaixonado por desenvolvimento web, com experiência em criar soluções web robustas utilizando PHP, HTML, CSS JavaScript, MySQL e vários frameworks. Trabalho a cerca de seis meses na <abbr title="Industria de Aviação e Serviços">IAS</abbr> como <b>Desenvolvedor Web</b> e atualmente estou cursando Sistemas de Informação na UNA BH.
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tbody__redes">
+                            <h3>Minhas Redes Sociais:</h3>
+                            <ul>
+                               <li><a href="https://www.linkedin.com/in/illgner-jos%C3%A9-44586925b/">Linkedin</a></li> 
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </main>
         <script src="./js/script.js"></script>
     </body>
